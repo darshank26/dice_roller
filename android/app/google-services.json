@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "990032561123",
+    "project_id": "dice-roller-da123",
+    "storage_bucket": "dice-roller-da123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990032561123:android:2187d677f5f795d8ced6d6",
+        "android_client_info": {
+          "package_name": "com.darshankomu.dice_roller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1NDYPy50tATri9ysiOP2tlF6EXpXg07s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
