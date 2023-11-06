@@ -32,6 +32,8 @@ class _HomeScreenState extends State<HomeScreen> {
   var rnd_5 = 1;
   var rnd_6 = 1;
 
+  var back = Colors.blue.shade100;
+
   Future<void>? _launched;
 
   late BannerAd _bannerAd;
@@ -79,6 +81,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return GestureDetector(
       onTap: () {
+        // back = Color((random_dice_no_1.nextDouble() * 0x00FFFFFF).toInt()).withOpacity(1);
+
         setState(() {
           rnd_1 = random_dice_no_1.nextInt(6)+1;
           rnd_2 = random_dice_no_2.nextInt(6)+1;
@@ -90,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
         });
       },
       child: Scaffold(
-        backgroundColor: Colors.blue.shade100,
+        backgroundColor: Colors.white,
         body: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
